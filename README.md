@@ -27,5 +27,6 @@ The R-Plumber website has more details about more complex applications that can 
 
 
 # References 
-https://www.rplumber.io/docs/
-https://www.r-project.org/
+
+* https://www.rplumber.io/docs/
+* https://www.r-project.org/
