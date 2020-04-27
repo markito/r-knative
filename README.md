@@ -19,7 +19,7 @@ Now you can build a container and deploy this endpoint that will auto-scale and 
 
 1. `docker build . t <your/containername>`   # build your local script into the container
 1. `docker push <your/containername>`   # push your container image to a registry
-1. `kn service create my-r-api --image=<your/containername> --limits-cpu=0.5 --limits-memory=100M`   # create a Knative Service
+1. `kn service create my-r-api --image=<your/containername> --limits-cpu=0.5 --limits-memory=500M`   # create a Knative Service
 
 This will give you an API endpoint where you can access the `plot` function to access your API. 
 
